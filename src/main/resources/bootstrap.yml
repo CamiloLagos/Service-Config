@@ -1,0 +1,20 @@
+sever:
+  port: 8081
+
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      enable: true
+      server:
+        git:
+          uri: "https://github.com/CamiloLagos/Service-Config.git"
+          searchPath: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+  security:
+    user:
+      name: root
+      password: s3cr3t
+
