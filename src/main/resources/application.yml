@@ -9,7 +9,7 @@ spring:
       enable: true
       server:
         git:
-          uri: "https://github.com/CamiloLagos/Service-Config/tree/main/src/main/resources"
+          uri: "https://github.com/CamiloLagos/Service-Config"
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
