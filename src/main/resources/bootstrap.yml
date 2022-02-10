@@ -1,4 +1,4 @@
-sever:
+server:
   port: 8081
 
 spring:
@@ -9,8 +9,8 @@ spring:
       enable: true
       server:
         git:
-          uri: "https://github.com/CamiloLagos/Service-Config.git"
-          searchPath: config-data
+          uri: "https://github.com/CamiloLagos/Service-Config/tree/main/src/main/resources"
+          searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
