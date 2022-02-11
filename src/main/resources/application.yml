@@ -12,8 +12,4 @@ spring:
           uri: "https://github.com/CamiloLagos/Service-Config"
           searchPaths: config-data
 
-  security:
-    user:
-      name: root
-      password: s3cr3t
 
